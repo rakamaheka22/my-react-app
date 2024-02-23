@@ -4,11 +4,6 @@ const TotalItem = ({ total }) => {
 
     const { price, count } = total
 
-    // ngasih diskon
-    // jika beli > 3 dapet diskon 25%
-    // jika beli > 6 dapet diskon 50%
-    // jika beli > 10 dapet diskon 65%
-
     const normalPrice = price * count
 
 
